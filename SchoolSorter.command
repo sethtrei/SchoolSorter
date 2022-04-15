@@ -1,0 +1,1 @@
+python3 /Users/sethtreiman/Library/Mobile\ Documents/com\~apple\~CloudDocs/Projects/Python\ Projects/SchoolSorter/CurrentSchoolSorter.py

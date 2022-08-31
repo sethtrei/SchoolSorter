@@ -12,7 +12,7 @@ import shutil
 
 global courses
 global codes
-courses = ["CMSC420", "CMSC335", "CMSC389E", "CINE245", "JOUR282", "ENGL393"]
+courses = ["CINE319F", "CINE459A", "CMSC389T", "CMSC421", "CMSC430", "CINE319M", "CMSC498I"]
 
 
 def main():
@@ -54,7 +54,7 @@ def main():
     if (class_name != ""):
         notif += "\'Found! The course is " + class_name + ".\' "
         class_name += '/'
-        new_path = '/Users/sethtreiman/Documents/School/Junior Year/Spring/' + class_name + file_name
+        new_path = '/Users/sethtreiman/Documents/School/Senior Year/Fall/' + class_name + file_name
         shutil.move(file_path, new_path)
         file_path = new_path
     else:

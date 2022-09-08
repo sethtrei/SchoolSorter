@@ -2,6 +2,17 @@
 # to install pdfminer, do pip3 install pdfminer.six
 # you may have to update pip/pip3 for it to work
 # to install docx you need to do pip3 install python-docx
+# Full list of install commands:
+
+# pip3 install docx2txt
+# pip3 install pdfminer
+# pip3 install pdfminer.six
+# pip3 install pypdf2
+# pip3 install docx
+# pip3 install python-docx 
+
+
+
 import glob
 import os
 import docx2txt
